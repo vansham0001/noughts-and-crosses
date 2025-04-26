@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Micro IIT Internship 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1>Noughts And Crosses</h1>
+        <p>Enter your name to begin</p>
+        <input type="text" id="playerName" placeholder="Your Name">
+        
+        <div class="game-mode">
+            <p>Select game mode:</p>
+            <div class="mode-options">
+                <button id="singlePlayer">Play vs Computer</button>
+                <button id="multiPlayer">Multiplayer</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-container" id="gameContainer" style="display: none;">
+        <h1 id="welcomeMessage"></h1>
+        <div class="game-info">
+            <div class="timer" id="gameTimer">00:00</div>
+            <div class="current-player" id="currentPlayer"></div>
+            <div class="score-board" id="scoreBoard"></div>
+            <button id="restartGame">Restart Game</button>
+        </div>
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+
+    <footer>
+        <p>Built for Micro IIT Internship 2025</p>
+        <p>Designed By Vansham Dutta</p>
+        <p>Contact: vanshamdutta06@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
